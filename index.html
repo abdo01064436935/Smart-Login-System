@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="">
+    
+    <title>Document</title>
+</head>
+<body>
+
+<div id="conn" class="con mx-auto my-5 shadow-lg ">
+    <h1 class="text-center pt-4">Smart Login System</h1>
+ <div class="login m-auto">
+    <input  type="email" class="form-control mt-3 text-white " id="emailInput" placeholder="Enter your email">
+    <input type="text" class="form-control mt-3 text-white" id="passwordInput" placeholder="Enter your password">
+    <p id="parError" class=" text-center d-none pt-3">All inputs is required</p>
+
+    <div class="d-grid gap-2 mt-4">
+        <button onclick="parErrore()" id="btnLogin" class="btn" type="button">Login</button>
+       
+      </div>
+
+      <p class="text-center pb-5 pt-3">Don’t have an account? <a onclick="signUp()" id="signUpAncor" href="#conn2">Sign Up</a></p>
+ </div>
+</div>
+
+<div id="conn2" class="con2 mx-auto my-5 shadow-lg d-none">
+    <h1 class="text-center pt-4">Smart Login System</h1>
+ <div class="login m-auto">
+    <input type="text" class="form-control mt-3 text-white" id="nameInputForSignIn" placeholder="Enter your name">
+    <input  type="email" class="form-control mt-3 text-white " id="emailInputForSignIn" placeholder="Enter your email">
+    <input type="text" class="form-control mt-3 text-white" id="passwordInputForSignIn" placeholder="Enter your password">
+    <p id="parError2" class=" text-center d-none pt-3">All inputs is required</p>
+    <p id="succes" class="text-center pt-2 d-none" >Succes</p>
+
+    <div class="d-grid gap-2 mt-4 ">
+        <button onclick="parErrore() " id="btnLogin2" class="btnLogin2" type="button">Sign Up</button>
+       
+      </div>
+
+      <p class="text-center pb-5 pt-3">Don’t have an account? <a onclick="signIn()" href="#conn">Sign In</a></p>
+ </div>
+</div>
+
+
+<div id="nameUser" class="name d-none">
+    <div class="tapbar p-3 w-100 text-white shadow-lg d-flex justify-content-around ">
+        <h3>SMART LOGIN</h3>
+        <button id="btnLogOut" type="button" class="btn btn-outline-warning">Logout</button>
+    </div>
+    
+    <div class="div d-flex justify-content-center align-items-center ">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="welcome text-center shadow-lg   p-5 ">
+            
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+  
+
+<script src="./script/bootstrap.bundle.min.js"></script>
+<script src="./script/main.js"></script>
+</body>
+</html>

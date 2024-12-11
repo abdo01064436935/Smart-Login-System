@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: #24353F;
+}
+
+.con{
+    width: 800px;
+    
+    background: #24353F;
+}
+
+.con h1{
+    color: #17A2B8;
+  
+}
+
+.form-control{
+    background-color: #24353F;
+    margin: auto; 
+    color: #17A2B8;
+}
+.con .login{
+    width: 90%; 
+    
+}
+
+.con .login input:focus {
+    background-color: transparent;
+    
+
+}
+
+.d-grid{
+    border: 1px solid #17A2B8;
+    transition: 0.5s all;
+    border-radius: 5px;
+}
+
+.d-grid:hover{
+    background-color: #17A2B8;
+}
+
+.d-grid button{
+    color: #17A2B8;
+    cursor: pointer;
+}
+
+.d-grid button:hover{
+    color: white;
+}
+
+
+.login p{
+    color: white;
+}
+
+.login p a{
+    color: white;
+}
+
+
+
+#parError{
+    color: red;
+}
+
+.con2{
+    width: 800px;
+    
+    background: #24353F;
+}
+
+.con2 h1{
+    color: #17A2B8;
+  
+}
+
+.con2 .login{
+    width: 90%; 
+    
+}
+
+.con2 .login input:focus {
+    background-color: transparent;
+    
+
+}
+
+.welcome{
+    margin-top: 200px;
+}
+
+.welcome h1{
+    color: #17A2B8;
+}
+
+.btnLogin2{
+    background-color: transparent;
+    color: #17A2B8;
+    transition: 0.5s all;
+}
+
+.btnLogin2:hover{
+    background-color: #17A2B8;
+    color: white;
+}
+
+#succes{
+    color: green;
+}
+
+#parError2{
+    color: red;
+}
+
+
+
+
